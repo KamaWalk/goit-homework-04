@@ -370,6 +370,7 @@ nav .logo-studio {
   background-color: var(--white-background);
   border-radius: 0 0 4px 4px;
   flex-basis: calc((100% -72px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 /* __________________________________PORTFOLIO PAGE */
@@ -382,7 +383,7 @@ nav .logo-studio {
   display: flex;
   flex-direction: column;
 }
-
+/* ______________________________________________ FILTERS _____ */
 .filters {
   display: flex;
   flex-direction: row;
@@ -408,17 +409,17 @@ nav .logo-studio {
   border: 1px solid var(--accent);
 }
 
-.button:hover {
-  color: var(--white-background);
-  background-color: var(--pressed-state);
-  border: 1px solid transparent;
-}
-
+.button:hover,
 .button:focus {
   color: var(--white-background);
   background-color: var(--pressed-state);
   border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+
+
+
+/* ______________________________________________IMGS LINKS ______ */
 
 .portfolio-img-list {
   display: flex;
@@ -430,6 +431,10 @@ nav .logo-studio {
 
 .image-link {
   width: calc{(100%-48px)/3};
+}
+
+.image-link:hover, .image-link:focus {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .img-description {
