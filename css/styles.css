@@ -190,10 +190,21 @@ nav .logo-studio {
 /* ___________________________________________pierwszy nagłówek */
 .starting-section {
   background-color: var(--dark);
-  color: var(--white-background);
+  margin: 0 auto;
+  padding: 188px 0;
+  background-position: center; 
+  background-size: cover;
   display: flex;
   justify-content: center;
-  padding: 188px 0;
+}
+
+.background {
+  background-image: radial-gradient(
+     to right, 
+  var(--hero-background), 
+  var(--hero-background)), 
+  url('https://github.com/KamaWalk/goit-homework-04/blob/main/images/people-office1.jpg'
+); 
 }
 
 .container-one {
@@ -202,14 +213,7 @@ nav .logo-studio {
   align-items: center;
   margin: 0;
   max-width: 1440px;
-  background-image: radial-gradient(
-     at center, 
-  var(--hero-background), 
-  var(--hero-background)), 
-  url('./images/people-office1.jpg'
-);
-background-position: center; 
-background-size: cover;
+  color: var(--white-background);
 }
 
 .heading-one {
