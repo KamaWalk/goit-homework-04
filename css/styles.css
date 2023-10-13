@@ -72,6 +72,8 @@ p {
 .header {
   border-bottom: 1px solid var(--accent);
   display: flex;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  max-width: 100%;
 }
 
 .head {
@@ -177,6 +179,7 @@ nav .logo-studio {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
   
 .footer-logo {
@@ -188,14 +191,16 @@ nav .logo-studio {
   color: var(--light);
   max-width: 264px;
   text-align: left;
-}
+ }
 
-.sm-footer-div {
-  margin-left: 120px;
+.footer-logo-div {
+  margin-right: 120px;
 }
 
 .social-media-text {
   color: var(--white-background);
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .sm-icons-footer {
@@ -203,7 +208,6 @@ nav .logo-studio {
 justify-content: center;
 align-items: center;
 gap: 16px;
-margin-top: 16px;
 }
 
 .sm-icon-f {
@@ -235,7 +239,8 @@ align-items: center;
 .background {
   background-image: linear-gradient(
      to right, var(--hero-background), 
-  var(--hero-background)), url("https://raw.githubusercontent.com/KamaWalk/goit-homework-04/main/images/people-office1.jpg"); 
+  var(--hero-background)), url("./images/people-office1.jpg"); 
+  background-repeat: no-repeat;
   max-width: 1440px;
 }
 
@@ -455,6 +460,10 @@ align-items: center;
   background-color: var(--pressed-state);
 }
 
+.svg-stuff {
+  fill: var(--light);
+}
+
 /* ____________________________________________________ CUSTOMERS */
 
 .customers {
@@ -502,6 +511,9 @@ align-items: center;
   margin-bottom: 72px;
 }
 
+.filter-link {
+  display: block;
+}
 
 .button {
   color: var(--primary-brand);
