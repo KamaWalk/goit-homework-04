@@ -237,8 +237,7 @@ align-items: center;
 }
 
 .background {
-  background-image: linear-gradient(
-     to right, var(--hero-background), 
+  background-image: linear-gradient(var(--hero-background), 
   var(--hero-background)), url("./images/people-office1.jpg"); 
   background-repeat: no-repeat;
   max-width: 1440px;
@@ -458,7 +457,10 @@ align-items: center;
 
 .sm-icon:hover, .sm-icon:focus {
   background-color: var(--pressed-state);
+  border-color: var(--pressed-state);
 }
+
+
 
 .svg-stuff {
   fill: var(--light);
