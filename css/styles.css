@@ -227,8 +227,7 @@ align-items: center;
 /* INDEX PAGE */
 /* ___________________________________________pierwszy nagłówek */
 .starting-section {
-  background-color: var(--dark);
-  margin: 0 auto;
+    margin: 0 auto;
   padding: 188px 0;
   background-position: center; 
   background-size: cover;
@@ -238,7 +237,7 @@ align-items: center;
 
 .background {
   background-image: linear-gradient(var(--hero-background), 
-  var(--hero-background)), url("./images/people-office1.jpg"); 
+  var(--hero-background)), url("/images/people-office1.jpg"); 
   background-repeat: no-repeat;
   max-width: 1440px;
 }
