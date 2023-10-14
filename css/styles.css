@@ -300,7 +300,6 @@ align-items: center;
 /* ________________________________lista opisów */
 .first-index {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: var(--gap-content);
 }
