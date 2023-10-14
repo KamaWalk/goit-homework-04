@@ -506,11 +506,13 @@ color: var(--subtle-text);
   background-color: var(--white-background);
   color: var(--pressed-state);
   border-color: var(--pressed-state);
+  fill: var(--pressed-state);
 }
 
 .svg-customer {
   fill: currentColor;
 }
+
 
 /* __________________________________PORTFOLIO PAGE */
 .section-portfolio {
